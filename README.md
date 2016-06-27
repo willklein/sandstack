@@ -10,6 +10,6 @@ Install and run Selenium:
 
 `npm run selenium`
 
-Run WebdriverIO specs:
+In another terminal window, run WebdriverIO specs:
 
 `npm test`

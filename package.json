@@ -5,6 +5,7 @@
   "private": true,
   "main": "index.js",
   "scripts": {
+    "app": "node_modules/.bin/http-server ./app/angular2",
     "selenium": "npm run selenium-install && npm run selenium-start",
     "selenium-install": "node_modules/.bin/selenium-standalone install",
     "selenium-start": "node_modules/.bin/selenium-standalone start",
@@ -21,6 +22,7 @@
   },
   "homepage": "https://github.com/willklein/sandstack#readme",
   "dependencies": {
+    "http-server": "^0.9.0",
     "selenium-standalone": "^5.1.1",
     "wdio-jasmine-framework": "^0.2.2",
     "webdriverio": "^4.1.1"
