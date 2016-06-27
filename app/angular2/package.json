@@ -1,8 +1,7 @@
 {
   "private": true,
   "scripts": {
-    "dev": "tsc --watch",
-    "app": "node_modules/.bin/http-server ."
+    "dev": "tsc --watch"
   },
   "devDependencies": {
     "typescript": "1.7.5"
