@@ -1,0 +1,28 @@
+{
+  "name": "sandstack",
+  "version": "0.0.1",
+  "description": "JavaScript testing sandbox",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "selenium": "npm run selenium-install && npm run selenium-start",
+    "selenium-install": "node_modules/.bin/selenium-standalone install",
+    "selenium-start": "node_modules/.bin/selenium-standalone start",
+    "test": "node_modules/.bin/wdio wdio.conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/willklein/sandstack.git"
+  },
+  "author": "Will Klein",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/willklein/sandstack/issues"
+  },
+  "homepage": "https://github.com/willklein/sandstack#readme",
+  "dependencies": {
+    "selenium-standalone": "^5.1.1",
+    "wdio-jasmine-framework": "^0.2.2",
+    "webdriverio": "^4.1.1"
+  }
+}
